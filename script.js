@@ -1,9 +1,9 @@
 //complete this code
 class Rectangle {
-	width:number;
-	heigth:number;
+	// width:number;
+	// heigth:number;
 	
-	constructor(width:number, heigth:number){
+	constructor(width, heigth){
 		this.width = width 
 		this.heigth = heigth 
 	
@@ -15,8 +15,8 @@ const rectangleArea = this.widht * this.heigth;
 }
 
 class Square extends Rectangle{
-   constructor(widht,heigth){
-  super(widht,heigth);
+   constructor(side){
+  super(side,side);
    }
 
 squareInstance(){
@@ -24,6 +24,7 @@ const squareArea = this.widht * this.height
 	return squareArea
 }
 }
+
 class Square extends Animal {}
 
 // Do not change the code below this line
